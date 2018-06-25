@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600i,900|Roboto:300,400,900');
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.page {
+    background: #eeeeee;
+    position: relative;
+}
+
+.blink {
+    position: absolute;
+    right: 5px;
+}
+
+.contentWrapper {
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    height: 130px;
+    padding-top: 20p;
+    box-sizing: border-box;
+    line-height: 2.5;
+    color: #303030;
+}
+
+.header__logo {
+    display: inline;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(48, 48, 48);
+    text-align: left;
+}
+
+.nav {
+    display: inline;
+    vertical-align: super;
+}
+
+.navList {
+    display: inline-block;
+    margin-left: 444px;
+    list-style: none;
+    font-size: 0px;
+}
+
+.nav__item {
+    display: inline-block;
+    margin-right: 51px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.nav__button {
+    display: inline-block;
+    
+}
+
+.button {
+    height: 12px;
+    width: 16px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.reference {
+    text-decoration: none;
+}
+
+.nav__reference {
+    color: rgb(48, 48, 48); 
+}
+
+.nav__reference:hover {
+    text-decoration: underline;
+    text-decoration-color:  rgb(48, 48, 48);
+}
+
+.heading {
+    color: #303030;
+}
+
+.img {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.blackAndWhite__info {
+    display: inline-block;
+    width: 51%;
+    text-align: right;
+    position: relative;
+    z-index: 1;
+}
+
+.blackAndWhite__heading {
+    margin: 0px;
+    font-size: 136px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 0.95;
+}
+
+.blackAndWhite__description {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.blackAndWhite__reference {
+    display: inline-block;
+    color: #e10011;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    line-height: 3;
+}
+
+.blackAndWhite__reference:hover {
+    transform: scale(1.1);
+}
+
+.blackAndWhite__img {
+    margin-left: 80px;
+    vertical-align: top;
+    position: relative;
+}
+
+.blackAndWhite__bullets {
+    box-sizing: border-box;
+    padding-top: 30px;
+    height: 120px;
+}
+
+.bulletsSet {
+    width: fit-content;
+    margin: 0 auto;
+    cursor: default;
+}
+
+.button__bullet {
+    background:#303030;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+}
+
+.button__bullet:not(:last-child) {
+    margin-right: 9px;
+}
+
+.button__bullet:hover {
+    background: #e10011;
+}
+
+.featuredProduct {
+    background: white;
+    padding-bottom: 52px;
+}
+
+.featuredProduct__header {
+    padding: 114px 0px 73px;
+}
+
+.featuredProduct__heading {
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.featuredProduct__description {
+    width: 551px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.featuredProduct__content {
+    width: 88%;
+    margin: 0 auto;
+    font-size: 0px;
+    /* background: #e7ff7c; */
+}
+
+.substrate {
+    display: inline-block;
+    position: relative;
+    margin-right: 29px;
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #e10011;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.75s ;
+}
+
+.mask:hover {
+    opacity: 1;
+}
+
+.slogan {
+    position: absolute;
+    left: 12%;
+    bottom: 15%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    color: white;
+    line-height: 1.3;
+}
+
+.slogan--underline {
+    padding-bottom: 10px;
+    border-bottom: 5px solid white;
+}
+
+.boomboxImg {
+    height: 350px;
+    margin: 0px 27px 27px 0px;
+}
+
+.headphoneImg {
+    height: 350px;
+}
+
+.bracerImg {
+    height: 350px;
+}
+
+.shoeImg {
+    height: 350px;
+    margin-right: 28px;
+}
+
+.chearImg {
+    height: 350px;
+}
+
+.underline {
+    display: block;
+    margin: 18px auto;
+}

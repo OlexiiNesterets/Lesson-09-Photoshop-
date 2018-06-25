@@ -15,7 +15,8 @@ font-family: 'Raleway', sans-serif; */
 
 .blink {
     position: absolute;
-    right: 5px;
+    right: 45px;
+    width: 90%;
 }
 
 .contentWrapper {

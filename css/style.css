@@ -42,6 +42,18 @@ font-family: 'Raleway', sans-serif; */
     text-align: left;
 }
 
+.button {
+    height: 12px;
+    width: 16px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
 .nav {
     display: inline;
     vertical-align: super;
@@ -64,20 +76,8 @@ font-family: 'Raleway', sans-serif; */
 
 .nav__button {
     display: inline-block;
-    
 }
 
-.button {
-    height: 12px;
-    width: 16px;
-    outline: none;
-    border: none;
-    background: transparent;
-}
-
-.button:hover {
-    transform: scale(1.1);
-}
 
 .reference {
     text-decoration: none;
@@ -140,8 +140,6 @@ font-family: 'Raleway', sans-serif; */
 
 .blackAndWhite__img {
     margin-left: 80px;
-    vertical-align: top;
-    position: relative;
 }
 
 .blackAndWhite__bullets {
@@ -204,10 +202,26 @@ font-family: 'Raleway', sans-serif; */
     /* background: #e7ff7c; */
 }
 
+.images-line__element:not(:last-child) {
+    margin: 0 3.41% 3.41% 0;
+}
+
+.img--large {
+    width: 65.5%;
+}
+
+.img--medium {
+    width: 31.09%;
+}
+
+.img--small {
+    width: 31%;
+}
+
 .substrate {
     display: inline-block;
     position: relative;
-    margin-right: 29px;
+    width: 31.09%;
 }
 
 .mask {
@@ -242,26 +256,8 @@ font-family: 'Raleway', sans-serif; */
     border-bottom: 5px solid white;
 }
 
-.boomboxImg {
-    height: 350px;
-    margin: 0px 27px 27px 0px;
-}
-
-.headphoneImg {
-    height: 350px;
-}
-
 .bracerImg {
-    height: 350px;
-}
-
-.shoeImg {
-    height: 350px;
-    margin-right: 28px;
-}
-
-.chearImg {
-    height: 350px;
+    width: 100%;
 }
 
 .underline {

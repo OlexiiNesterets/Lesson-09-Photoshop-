@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,600i,900|Roboto:300,400,900');
 
-/* font-family: 'Roboto', sans-serif;
-font-family: 'Raleway', sans-serif; */
-
 * {
     margin: 0px;
     padding: 0px;
@@ -30,16 +27,14 @@ font-family: 'Raleway', sans-serif; */
     height: 130px;
     padding-top: 20p;
     box-sizing: border-box;
-    line-height: 2.5;
     color: #303030;
 }
 
 .header__logo {
     display: inline;
-    font-size: 48px;
-    font-family: 'Roboto', sans-serif;
     color: rgb(48, 48, 48);
     text-align: left;
+    font: bold 48px / 2.5 'Roboto', sans-serif;
 }
 
 .button {
@@ -69,9 +64,7 @@ font-family: 'Raleway', sans-serif; */
 .nav__item {
     display: inline-block;
     margin-right: 51px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
+    font: 400 18px 'Roboto', sans-serif;
 }
 
 .nav__button {
@@ -111,27 +104,19 @@ font-family: 'Raleway', sans-serif; */
 
 .blackAndWhite__heading {
     margin: 0px;
-    font-size: 136px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
+    font: 900 136px / 0.95 'Raleway', sans-serif;
     text-transform: uppercase;
-    line-height: 0.95;
 }
 
 .blackAndWhite__description {
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    line-height: 1.4;
+    font: 300 24px / 1.4 'Roboto', sans-serif;
 }
 
 .blackAndWhite__reference {
     display: inline-block;
-    color: #e10011;
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
     margin: 23px 0 60px 0;
+    color: #e10011;
+    font: 900 24px 'Roboto', sans-serif;
 }
 
 .blackAndWhite__reference:hover {
@@ -202,26 +187,21 @@ font-family: 'Raleway', sans-serif; */
 
 .featuredProduct__heading {
     margin: 0px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
-    font-size: 48px;
     text-align: center;
+    font: 900 48px 'Raleway', sans-serif;
 }
 
 .featuredProduct__description {
     width: 551px;
     margin: 0 auto;
-    font-size: 18px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
     text-align: center;
+    font: 400 18px 'Raleway', sans-serif;
 }
 
 .featuredProduct__content {
     width: 88%;
     margin: 0 auto;
     font-size: 0px;
-    /* background: #e7ff7c; */
 }
 
 .images-line__element:not(:last-child) {
@@ -255,7 +235,6 @@ font-family: 'Raleway', sans-serif; */
     background: #e10011;
     border-radius: 5px;
     opacity: 0;
-    transition: 0.75s ;
 }
 
 .mask:hover {
@@ -266,11 +245,9 @@ font-family: 'Raleway', sans-serif; */
     position: absolute;
     left: 12%;
     bottom: 15%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 26px;
-    font-weight: 900;
-    color: rgb(255, 255, 255);
     line-height: 1.3;
+    color: rgb(255, 255, 255);
+    font: 900 26px / 1.3 'Roboto', sans-serif;
 }
 
 .slogan--underline {
